@@ -20,7 +20,7 @@ public class Main {
         String lastName2 = "Иванов";
         String fullName2 = lastName2 + " " + firstName2 + " " + middleName2;
         fullName2 = fullName2.replace("ё", "е");
-        System.out.println(fullName2);
+        System.out.println("Данные ФИО сотрудника — " + fullName2);
 
     }
 }
